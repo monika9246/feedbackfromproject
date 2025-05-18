@@ -6,7 +6,7 @@ document.getElementById('feedbackForm').addEventListener('submit', function(even
   const message = document.getElementById('message').value.trim();
 
   if(name && email && message) {
-    alert(`Thank you, ${name}! Your feedback has been received.`);
+    alert(`Thanks, ${name}! Your feedback has been received.`);
     this.reset();
   } else {
     alert('Please fill in all fields.');
